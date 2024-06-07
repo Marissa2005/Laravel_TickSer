@@ -1,0 +1,83 @@
+/* style card-categories */
+.cards-categories {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+  }
+  
+  .cards-categories h2 {
+	font-family: "Roboto", sans-serif;
+	font-size: 24px;
+	margin-bottom: 20px;
+	text-align: center;
+  }
+  
+  .card-categories {
+	display: grid;
+	gap: 1.5rem;
+	grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  }
+  
+  .card {
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+	border-radius: 15px;
+	overflow: hidden;
+	transition: transform 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+	transform: scale(1.05);
+  }
+  
+  .card .card-image {
+	overflow: hidden;
+	border-radius: 15px 15px 0 0;
+  }
+  
+  .card img {
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+	border-radius: 15px 15px 0 0;
+  }
+  
+  .card-content {
+	padding: 20px;
+  }
+  
+  .card h5 {
+	margin-bottom: 10px;
+	font-family: "Roboto", sans-serif;
+	font-size: 22px;
+	font-weight: 600;
+	color: #333;
+  }
+  
+  .card p.description {
+	font-size: 14px;
+	color: #666;
+	margin-bottom: 15px;
+  }
+  
+  .card p.price {
+	font-size: 18px;
+	font-weight: bold;
+	color: #ff69b4;
+	margin-bottom: 15px;
+  }
+  
+  .card .btn_belanja {
+	background-color: #ff69b4;
+	padding: 12px 20px;
+	border-radius: 8px;
+	border: none;
+	cursor: pointer;
+	color: white;
+	font-size: 16px;
+	transition: background-color 0.3s ease;
+  }
+  
+  .card .btn_belanja:hover {
+	background-color: #ff1493;
+  }
+  /* style card-categories */
